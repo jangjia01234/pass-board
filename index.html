@@ -10,25 +10,66 @@
   </head>
   <body>
     <!-- top -->
-    <header>
-      <div class="logoImg">
+    <header class="header">
+      <div class="logo">
+        <!-- <h1>PB</h1> -->
         <img src="#" />
       </div>
-      <div class="menuBar">
-        <div>category</div>
-        <div>review</div>
-        <div>news</div>
+      <div class="menu">
+        <div class="menu-bar">
+          <div>category</div>
+          <div>review</div>
+          <div>news</div>
+        </div>
       </div>
-      <div class="search">
-        <div class="search-box">search</div>
-        <!-- <i class="search-icon"> -->
+      <div class="header-right">
+        <div class="search">
+          <div class="search-box">search</div>
+            <!-- <i class="search-icon"> -->
+          </div>
+        <div class="mypage">mypage</div>
       </div>
     </header>
 
+    <div class="ad"></div>
+
     <!-- middle -->
-    <main>
-      <h1>Welcome to Pass Board</h1>
-      <div></div>
+    <main class="main">
+      <div class="popular">
+        <h1 class="popular-title">Trending Games</h1>
+        <div class="popular-list">
+          <div class="popular-list__detail"></div>
+          <div class="popular-list__detail"></div>
+          <div class="popular-list__detail"></div>
+        </div>
+      </div>
+      <div class="rank">
+        <h1 class="rank-title">Rank</h1>
+        <div class="rank-list">
+          <div class="rank-list__detail">
+            <div class="rank-list__image">
+              <img src="https://boardlife.co.kr/data/boardgame_strategy/2022/01/02/1641052726-191444_N_170x170_100_5_.png" />
+            </div>
+            <div class="rank-list__number">1</div>
+            <div class="rank-list__title">The Resistance: Avalon</div>
+          </div>
+          <div class="rank-list__detail">
+            <div class="rank-list__image">
+              <img src="https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__itemrep/img/IwUOQfhP5c0KcRJBY4X_hi3LpsY=/fit-in/246x300/filters:strip_icc()/pic3536616.jpg" />
+            </div>
+            <div class="rank-list__number">2</div>
+            <div class="rank-list__title">Terraforming Mars</div>
+          </div>
+          <div class="rank-list__detail">
+            <div class="rank-list__image">
+              <img src="https://boardlife.co.kr/wys2/swf_upload/2022/01/29/164344154246608_lg_N_170x170_100_5_.png" />
+            </div>
+            <div class="rank-list__number">3</div>
+            <div class="rank-list__title">Skull king</div>
+          </div>
+        </div>
+      </div>
+      <div class="app"></div>
     </main>
 
     <!-- bottom -->
@@ -36,6 +77,6 @@
       <div></div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

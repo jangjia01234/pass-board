@@ -9,3 +9,154 @@
 html {
   font-family: "Pretendard-Regular";
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+
+/* top */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgb(65, 65, 65);
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  margin-right: 200px;
+}
+
+.menu-bar {
+  display: flex;
+  gap: 80px;
+}
+
+.menu-bar div:hover {
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+}
+
+.search {
+  margin-right: 80px;
+}
+
+.search:hover {
+  cursor: pointer;
+}
+
+.mypage:hover {
+  cursor: pointer;
+}
+
+/* middle */
+
+.main {
+  padding: 40px;
+}
+
+.ad {
+  padding: ;
+  width: 100vw;
+  height: 400px;
+  background-image: url("https://blog.krafton.com/wp-content/uploads/2022/08/%EC%82%AC%EC%A7%84%EC%9E%90%EB%A3%8C_%ED%81%AC%EB%9E%98%ED%94%84%ED%86%A4-%EC%8B%A0%EC%9E%91-%E2%80%98%EB%AC%B8%EB%B8%8C%EB%A0%88%EC%9D%B4%EC%BB%A4-%EA%B2%8C%EC%9E%84%EC%8A%A4%EC%BB%B4%EC%97%90%EC%84%9C-%EC%B5%9C%EC%B4%88-%EA%B3%B5%EA%B0%9C.jpg");
+  background-size: cover;
+}
+
+.ad:hover {
+  cursor: pointer;
+}
+
+.popular {
+  margin-bottom: 60px;
+}
+
+.popular-title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.popular-list {
+  display: flex;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.popular-list__detail {
+  background-color: rgb(65, 65, 65);
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.popular-list__detail:hover {
+  cursor: pointer;
+}
+ 
+.popular-list__detail:first-child {
+  background-image: url("https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__opengraph/img/yB7L3YXH4kjbgzWB19p_FF5Ko7E=/fit-in/1200x630/filters:strip_icc()/pic3490053.jpg");
+  background-size: cover;
+}
+
+.popular-list__detail:nth-child(2) {
+  background-image: url("https://cf.geekdo-images.com/mHQMnDL317AKXCt9LojYxw__opengraph/img/cq53gzADvxvxVU3JtRbgr4Jt6Y4=/fit-in/1200x630/filters:strip_icc()/pic3784353.jpg");
+  background-size: cover;
+}
+
+.popular-list__detail:nth-child(3) {
+  background-image: url("https://cf.geekdo-images.com/e9S5XKTJoAwmGnwDYLco4g__opengraph/img/CMMFKaIYnPIs-WpXhLDYTcEmlXs=/fit-in/1200x630/filters:strip_icc()/pic6683729.jpg");
+  background-size: cover;
+}
+
+.rank-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.rank-list {
+  padding: 20px;
+  gap: 40px;
+}
+
+.rank-list__detail {
+  display: flex;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.rank-list__detail:hover {
+  cursor: pointer;
+}
+
+.rank-list__image img:first-child {
+  margin-right: 20px;
+  background-color: rgb(65, 65, 65);
+  border-radius: 10px;
+  width: 220px;
+  height: 300px;
+}
+
+.rank-list__number {
+  margin-right: 10px;
+}
+
